@@ -1,0 +1,12 @@
+CONCLUSIONES:
+=============
+
+1. El ejercicio permitió aplicar las buenas prácticas con el fin de garantizar calidad y eficiencia en la automatización de testing, de igual manera que se cubrieran todos los requisitos que requería para una cobertura aceptable e2e.
+
+2. Se configuró el navegador firefox para evitar alertas emergentes como las generadas por el gestor de contraseñas de Chrome mediante el archivo de propiedades de serenity.
+
+3. La estructura modular del proyecto facilita su mantenimiento y escalabilidad para pruebas más complejas o integraciones continuas.
+
+4. Se aprovechó los reportes de Serenity ya que son visualmente claros y permiten una trazabilidad sencilla del paso a paso de cada prueba, la identificación de errores, que da valor agregado para entregar a equipos de desarrollo y negocio y mejoren la calidad de entrega.
+
+5. Se diseño acciones personalizadas para ubicar los elementos dentro del frame y evitar problemas de localización de componentes, adicional se busco el path más propicio para referenciarlos de manera más acertada, ya que en algunos casos se puede mejorar la programación en cuanto a identificadores y por ende el testing.

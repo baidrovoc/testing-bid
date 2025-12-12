@@ -1,0 +1,12 @@
+CONCLUSIONES:
+=============
+
+1. El proyecto implementa una arquitectura BDD limpia con separación entre archivos .feature y runners JUnit5, siguiendo convenciones Maven estándar que facilitan la integración CI/CD y cobertura de escenarios críticos de autenticación.
+
+2. Se aplicaron buenas prácticas mediante Karate Framework con sintaxis Gherkin para legibilidad, runners específicos para ejecución granular, y documentación completa en README.md que facilita la incorporación de nuevos desarrolladores.
+
+3. Generación automática de reportes HTML detallados en target/karate-reports/ con métricas completas, trazabilidad de ejecución e información detallada de requests/responses que facilita debugging y análisis de fallos.
+
+4. La combinación de Java 11 LTS, Maven 3.6+, Karate Framework y JUnit5 proporciona estabilidad empresarial, gestión eficiente de dependencias, sintaxis simple para APIs REST y arquitectura moderna de testing.
+
+5. Los casos de prueba validan exitosamente los flujos críticos de DemoBlaze (registro, duplicados, login exitoso/fallido) estableciendo una base sólida para expansión hacia otros módulos del sistema.
